@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family-Skranji:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff;
+    --bs-primary-color: #c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--bs-dark-color);
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem
+}
+
+h2 {
+    line-height: 4rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    font-synthesis: none;
+    line-height: 1.55rem;
+    text-rendering: optimizeLegibility;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+    button, a{
+        font-size: 1.15rem;
+        letter-spacing: 0.03rem;
+        word-spacing: .1rem;
+    }
+
+    .commom-heading{
+        font-size: 2.8rem;
+        font-weight: 500;
+        letter-spacing: 0.01rem;
+    }
+
+    .common-title{
+        margin-bottom: 4.2rem;
+
+    }
+
+    
+    .hero-section .container{
+        display: grid;
+        place-content: center;
+        height: inherit;
+
+    }
+
+    .bg-main{
+        height: 80vh;
+        position: relative;
+
+    }
+
+    .bg-color{
+        background-color: #0f0118;
+    }
+    .bx-color{
+        background-color: #000000; 
+    }
+
+
+    .nav-link{
+        color: var(--bs-main-color)
+    }
+
+    .nav-link:hover{
+        color: #eaff00
+    }
+
+    .navbar-link{
+        color: #FFFFFF;
+    }
+    .navbar-brand:link{
+        color: #E8FF00;
+    }
+
+    .text-light-grey{
+        color: #92927D;
+    }
+
+  .custom-image {
+    display: block; /* This makes the image a block element to center it horizontally */
+    margin: -65px; /* This centers the image horizontally within its container */
+    margin-right: 35px;
+    margin-left: 97px;
+    border-radius: 1rem;
+    width: 27rem; /* Adjust the maximum width as needed */
+    height: 260px; /* This maintains the image's aspect ratio */
+  }
+
+  .custom-shape-divider-bottom-1698401651 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698401651 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 111px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1698401651 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.Services-Section{
+    padding: 6rem 0 3rem 0;
+}
+
+.icon-span{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #674d9b;
+    color: var(b);
+}
+
+.icon-span:hover{
+    color: #E8FF00
+}
+
+.card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url(https://static.designboom.com/wp-content/uploads/2017/12/david-adjaye-130-william-condominium-tower-new-york-city-designboom-02.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem;
+    overflow: hidden;
+
+
+}
+
+.business-section{
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.common-section{
+   
+    padding : 10rem;
+}
+
+.carousel .card{
+    background-color: #1e022b;
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card p{
+    
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover{
+    background-color: #fbf2ff;
+    color: var(--bs-dark-color);
+}
+.carousel-inner .card:hover p{
+    color: var(--bs-dark-color);
+}
+
+.fa-star{
+    color: #b2bd1a;
+}
+
+.carousel-indicators{
+    bottom: 1%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width:1rem ;
+    height: 1rem;
+    background-color: var(--secondary-color) ;
+
+}
+
+.card-section{
+    margin-top: 1%;
+    margin-left: 67px ;
+    margin-bottom: 90%;
+    max-height:  300px;
+}
+
+.hero-conten{
+    margin-top: 25%;
+    margin-left: 55px ;
+    max-height:  100px;
+}
+
+
+.img-con{
+    margin-top: 37%;
+}
+.consec-sec{
+    background-color: #E8FF00;
+    
+}
+
+.custom-shape-divider-bottom-1698489160 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698489160 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 119px;
+}
+
+.custom-shape-divider-bottom-1698489160 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.contact-section{
+    position: relative;
+}
+.common-section .commom-title{
+    padding-top: 6rem;
+}
+
+.contact-section .form-section{
+    width: 50%;
+}
+
+.more-info-section-2{
+    
+}
+
+.more-info-section-2{
+    background-image: linear-gradient(rgba(22,22,22,0.5), rgba(22,22,22,0.9)), url(https://i.pinimg.com/originals/1d/d9/46/1dd946e58a802b28eebbe56edc47a6b7.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem;
+    overflow: hidden;
+}
